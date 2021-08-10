@@ -22,12 +22,12 @@ jobs:
       with:
         publish-dir: './build/web'
         production-branch: master
-        github-token: $MY_GITHUB_SECRET
+        github-token: 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
         deploy-message: "Deploy from GitHub Actions."
         enable-pull-request-comment: false
         enable-commit-comment: true
         overwrites-pull-request-comment: true
       env:
-        NETLIFY_AUTH_TOKEN: $NETLIFY_AUTH_TOKEN
-        NETLIFY_SITE_ID: $NETLIFY_SITE_ID
+        NETLIFY_AUTH_TOKEN: 8vf51KqGcwEO4OQ7rUGFcgdH5bIUlLiXHPuctLeM8kw
+        NETLIFY_SITE_ID: ce2a6e14-d954-45dc-ae21-bac7a7b21a83
       timeout-minutes: 1
